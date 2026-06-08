@@ -82,7 +82,7 @@ void setup() {
 
   WiFi.mode(WIFI_AP);
   WiFi.softAPConfig(apIP, apIP, IPAddress(255, 255, 255, 0));
-  WiFi.softAP("ChatterBox");
+  WiFi.softAP("TecnicasDigitales");
 
   // if DNSServer is started with "*" for domain name, it will reply with
   // provided IP to all DNS request
